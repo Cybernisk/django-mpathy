@@ -26,7 +26,7 @@ setup(
 
         # For psycopg2.extensions.quote_ident.
         # Could probably remove this and implement quote_ident ourselves if helpful, it's very simple code
-        'psycopg2>=2.7',
+        'psycopg2-binary>=2.7',
 
         # Django<1.11 would be hard to support:
         #   * (new in 1.11) We use custom indexes. Could implement with custom SQL if *required*
